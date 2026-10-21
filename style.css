@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #171717;
+    color: yellow;
+    min-height: 100vh;
+}
+
+h1, h2, h3, .timer-display {
+    font-family: sans-serif;
+}
+
+.countdown-card {
+    width: 90%;
+    max-width: 650px;
+    padding: 30px;
+    background-color: #222;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+.eyebrow {
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.form-label {
+    color: white;
+}
+
+.seconds-input,
+.input-group-text {
+    height: 50px;
+    border: 1px solid yellow;
+}
+
+.input-group-text {
+    background-color: yellow;
+    color: black;
+}
+
+.timer-display {
+    color: yellow;
+    font-size: 70px;
+    text-align: center;
+}
+
+.status-message {
+    color: white;
+}
+
+.btn-custom {
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    background-color: transparent;
+    color: yellow;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.btn-pause {
+    border-color: white;
+    color: white;
+}
+
+.btn-reset {
+    border-color: red;
+    color: red;
+}
+
+.btn-custom:disabled {
+    opacity: 0.5;
+}
+
+.hint {
+    color: #ccc;
+}
